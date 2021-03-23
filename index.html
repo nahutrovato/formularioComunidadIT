@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ComIT</h1>
+    </header>
+    <section>
+        <article>
+            <h2>Registrate para inscribirte a nuestros cursos</h2>
+        </article>
+        <article>
+            <form  method="GET"  action="">
+               <h3>Datos personales</h3>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+                <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido" required>
+               <input type="text" id="ciudad" name="ciudad" placeholder="Ingresa tu ciudad" required>
+                <input type="email" id="email" name="email" placeholder="Ingresa tu email" required>
+                <input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu numero de telefono" required>
+                <h3>Datos laborales</h3>
+                <h4>¿Actualmente trabajas?</h4>
+                <label for="si">Si</label>
+                <input type="radio" id="si" name="consultaLaboral">
+                <br>
+                <label for="no">No</label>
+                <input type="radio" id="no" name="consultaLaboral">
+                <br>
+                <p>Si tu respuesta anterior fue afirmativa. ¿Donde trabajas?</p>
+                <input type="text" id="lugarLaboral" name="lugarLaboral" placeholder="¿Donde trabajas?">
+                
+                <h3>Disponibilidad horaria</h3>
+                <p>¿Que dias podes cursar?</p>
+                <div id="horarios"> 
+                     <label for="lunes">Lunes</label>
+                    <input type="checkbox" id="lunes" name="lunes">
+                    <label for="martes">Martes</label>
+                    <input type="checkbox" id="martes" name="martes">
+                    <label for="miercoles">Miercoles</label>
+                    <input type="checkbox" id="miercoles" name="miercoles">
+                    <label for="jueves">Jueves</label>
+                    <input type="checkbox" id="jueves" name="jueves">
+                    <label for="viernes">Viernes</label>
+                    <input type="checkbox" id="viernes" name="viernes">
+                </div>
+                <p>¿En que franja horaria?</p>
+                <div id="horarios">
+                    <label for="mañana">Mañana 09-12</label>
+                    <input type="radio" id="mañana" name="franjaHoraria">
+                    <label for="tarde">Tarde 17:30-20:30</label>
+                    <input type="radio" id="tarde" name="franjaHoraria">
+                    <label for="tarde">Noche 19:30-22:30</label>
+                    <input type="radio" id="noche" name="franjaHoraria">
+                </div>
+            <br>    
+            <input type="submit" value="Finalizar">    
+            </form>
+            
+        </article>
+    </section>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body{
+    background-color: cadetblue;
+}
+h1{
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 5vw;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-decoration: underline;
+}
+article{
+    text-align: center;
+}
+form{
+    font-size: 20px;
+    text-align: center;
+}
+input{
+    text-align: center;
+    width: 50vw;
+    height: 5vh;
+    margin: 0.5%;
+}
+#horarios{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    ;
+    margin-left: 22%;
+}
